@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Mahasiswa</title>
+    <style>
+        /* CSS untuk mengatur gaya tabel */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: gold; /* Latar belakang berwarna emas */
+        }
+
+        th, td {
+            border: 1px solid black; /* Border 1px solid */
+            padding: 5px; /* Padding 5px */
+            text-align: center; /* Pusatkan teks */
+        }
+
+        th {
+            background-color: gold; /* Latar belakang header berwarna emas */
+            color: black; /* Teks header berwarna hitam */
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray; /* Latar belakang baris genap */
+        }
+
+        tr:nth-child(odd) {
+            background-color: white; /* Latar belakang baris ganjil */
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabel Mahasiswa</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Alamat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nur hayati</td>
+                <td>12345678</td>
+                <td>pulau kgn 123</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>dzikriansah</td>
+                <td>87654321</td>
+                <td>Pulau kgn 456</td>
+            </tr>
+            <!-- Tambahkan baris lainnya sesuai kebutuhan -->
+        </tbody>
+    </table>
+</body>
+</html>
